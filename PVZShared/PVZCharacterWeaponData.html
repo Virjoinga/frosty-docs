@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PVZCharacterWeaponData</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1>PVZCharacterWeaponData</h1>
@@ -12,13 +12,25 @@
     <p>Contains stuff for PvZ Weapons</p>
     <h2>Events</h2>
     <ul>
+        <li>OnChargingStarted</li>
+            <ul>
+                <li>When weapon charging has begun.</li>
+            </ul>
+        <li>OnChargingStopped</li>
+            <ul>
+                <li>When weapon charging has stopped.</li>
+            </ul>
+        <li>OnDisabled</li>
+            <ul>
+                <li>Something, idk.</li>
+            </ul>
         <li>OnPlayerActivate</li>
             <ul>
-                <li>Something, idk</li>
+                <li>When weapon is active.</li>
             </ul>
         <li>OnPlayerDeactivate</li>
             <ul>
-                <li>Something, idk</li>
+                <li>When weapon is inactive</li>
             </ul>
         <li>OnFiringEnded</li>
             <ul>
@@ -31,6 +43,10 @@
         <li>onPrimaryFireProjectileSpawned</li>
             <ul>
                 <li>When the projectile of the primary weapon has spawned.</li>
+            </ul>
+        <li>OnReloadBegin</li>
+            <ul>
+                <li>When reloading the weapon has begun.</li>
             </ul>
     </ul>
 </body>

@@ -1,5 +1,5 @@
 body{
-    background-color: #292929;
+    background-color: #141414;
     color: #F8F8F8
 }
 h1{
@@ -14,4 +14,57 @@ p{
 ul{
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    height: 1200px;
+    background-color: aqua;
+    margin:auto
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #F8F8F8;
+}
+
+.sidebar{
+    border-style: solid;
+    border-color: #707070;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+}
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+}
+.scrollbox-inner{
+    background-color: #292929;
+    color: #F8F8F8;
+}
+
+.content{
+    border-style: solid;
+    border-color: #707070;
+    padding: 10px;
+    position: relative;
+    left: 263px;
+    top: -1226px;
+    width: 911px;
+    height: 100%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+}
+.content-scrollbox{
+    overflow: auto;
 }
